@@ -1,0 +1,92 @@
+<!-- Whole document must be inside html tags -->
+<html lang="en">
+
+<head>
+    <!-- metadata goes in the head, this isn't visible to user -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Title of document in broswer & search engine  -->
+    <title>My First Page</title>
+</head>
+
+<body>
+    <!-- Content goes in the body, this is visible to user -->
+
+    <!-- Headings with different sizes -->
+    <h1>This is my first tag</h1>
+    <h2>This is another heading</h2>
+    <h6>This is another heading</h6>
+
+    <!-- div groups elements together on block level, span groups in line -->
+    <div>
+        <!-- Paragraph starts new line/paragrah -->
+        <p>This is some text</p> This is some more text 
+        
+        <!-- b/strong both make text bold, em/i make it italisised -->
+        <p><b>Lorem Ipsum</b> <strong> simply dummy</strong> text of the printing and typesetting industry.
+        <i>Lorem Ipsum</i> <em>has been</em> the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+        type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+        typesetting, remaining essentially unchanged. <span> was popularised in the 1960s</span> with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+        Ipsum.</p>
+    </div>
+
+    <!-- anchor tag creates hyperlinks, must use http for online links -->
+    <a href="http://www.udemy.com">Udemy Homepage</a>
+    <!-- To link to locally stored pages, link using file name -->
+    <a href="quiz1.html">Go to quiz1 page</a>
+
+    <h3>My Colour Lists</h3>
+    <!-- Ordered List (numbered) -->
+    <ol>
+        <li>Red</li>
+        <li>Orange</li>
+        <li>Yellow</li>
+        <!-- Nested lists under yellow -->
+            <ul>
+                <li>Sunflower</li>
+                <li>Banana</li>
+                    <ol>
+                        <li>Frozen Banana</li>
+                        <li>Fried Banana</li>
+                    </ol>
+            </ul>
+    </ol>
+    <!-- Unordered List (Bullet points)-->
+    <ul>
+        <li>Red</li>
+        <li>Orange</li>
+        <li>Green</li>
+    </ul>
+    
+    <h3>Dog Images:</h3>
+    <!-- Reference image stored locally -->
+    <img src="Dog.jpg">
+    <!-- Reference image hosted online -->
+    <img src="https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/Natural-Dog-Law-2-To-dogs%2C-energy-is-everything.jpg?itok=Z-ujUOUr">
+
+    <!-- Create table with table tag & give a border, tr=table row, th=table header, td=table data -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rusty</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Wyatt</td>
+                <td>13</td>
+            </tr>
+        </tbody>
+    
+    </table>
+
+</body>
+
+</html>

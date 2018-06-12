@@ -1,0 +1,22 @@
+p {
+    /* width changes the size of the box surrounding the paragraph */
+    width: 150px;
+    /* height: 10px; */
+    
+    
+    /* border changes size depending on width and height settings*/
+    border: 2px solid blue;
+
+    
+    /* padding adds space inside the border*/
+    padding: 10px;
+    padding-left: 20px;
+
+
+    /* margin is space outside the box*/
+    margin: 100px;
+    margin-bottom: 20px;
+    /* shortcut to add custom margin to every side(top,right,bottom,left) */
+    margin: 20px 40px 500px 100px;
+    margin: auto;
+}

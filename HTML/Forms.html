@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Demo</title>
+</head>
+<body>
+    <h1>Login Page</h1>
+    <!-- Action specifies where the form sends data to -->
+    <!-- Method specifies whether a get or post method -->
+    <form action="http://wikipedia.org" method="GET">
+        <!-- label gives name to form imput & useful for visually impaired -->
+        <label for="email">Email:</label>
+        <!-- Changing input type displays different form input, placeholder adds hint text -->
+        <input id="email" type="email" placeholder="Enter email address" required> 
+        <label for="password">Password:</label>
+        <input id="password" type="password" placeholder="Enter password" required>
+        <!-- Two methods of adding button -->
+        <!-- <input type="Submit"> -->
+        <button>Submit</button>
+    </form>
+</body>
+</html>

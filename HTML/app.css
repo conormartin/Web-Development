@@ -1,0 +1,29 @@
+h1 {
+	//rbg selects a combination of red, yellow and blue
+	//color: rgb(11,99,150);
+	//Alpha makes colour more transparent
+	color: rgba(11,99,150,.6);
+	//border with width, colour and style
+	//border-width: 5px;
+	//border-color: blue;
+	//border-style: solid;
+	//shortcut
+	border: 5px blue solid;
+}
+li {
+	//Colour selected from hexadecimal value
+	color: #FFF002;
+}
+h4 {
+	//Some colours have default names built into CSS
+	color: green;
+	border: 5px blue dashed;
+	background: rgb(111,100,150);
+}	
+body {
+	//background-color: #F120AA;
+	background-image: url(http://getwallpapers.com/wallpaper/full/1/9/3/60706.jpg);
+	//background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}

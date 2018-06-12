@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <title>Bootstrap Demo</title>
+    <!-- ow to overwrite default bootstrap styles -->
+    <style type="text/css">
+    .btn-danger {
+        background: orange;
+    }
+        </style>
+</head>
+<body>
+    <h1>Bootstrap Basics</h1>
+    <!-- class attributes taken from bootstrap docs -->
+    <button class="btn btn-success btn-xs btn-danger">Click Me!</button>
+    <button class="btn btn-success btn-xs" disabled="disabled">Click Me!</button>
+    <button class="btn btn-success btn-xs active">Click Me!</button>
+
+    <a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">Bootstrap Docs</a>
+    <!-- gives spacing, padding & centres elements inside it -->
+    <div class="container">
+        <!-- jumbotron creates a prominent box to highlight key elements -->
+        <div class="jumbotron">
+            <h1>This is a Jumbotron</h1>
+            <p>This is a paragraph</p>
+            <button class="btn btn-success">Submit</button>
+        </div>
+    </div>
+
+    <form>
+        <!-- form-group groups elements together (better spacing)-->
+        <!-- form-control styles the input boxes & controls their behaviour -->
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputFile">File input</label>
+            <input type="file" id="exampleInputFile">
+            <p class="help-block">Example block-level help text here.</p>
+        </div>
+        <div class="checkbox">
+            <label>
+            <input type="checkbox"> Check me out
+            </label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+</form>
+<!-- form-inline form keeps inputs on one line -->
+<form class="form-inline">
+        <div class="form-group">
+          <label for="exampleInputName2">Name</label>
+          <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail2">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+        </div>
+        <button type="submit" class="btn btn-default">Send invitation</button>
+      </form>
+
+ 
+     
+</body>
+</html>

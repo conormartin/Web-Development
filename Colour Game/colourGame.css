@@ -1,0 +1,79 @@
+body {
+    background-color: #232323;
+    /* margin 0 stretches element to edge of screen */
+    margin: 0;
+    font-family: "Avenir", "Montserrat";
+}
+/* puts squares in a grid & give them a margin */
+.square {
+    /* each square takes up 30% of grid */
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    /* transition animates change of state */
+    transition: background 0.6s;
+    /* ensures transition works in all browsers */
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+}
+/* centre the squares */
+#container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+}
+
+#colourDisplay {
+    font-size: 200%;
+}
+
+/* empty tag to take up space between buttons */
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+#stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.selected {
+    color: white;
+    background: steelblue;
+}
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background-color: steelblue;
+}

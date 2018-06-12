@@ -1,0 +1,44 @@
+/* Font family */
+p {
+    font-family: Arial;
+}
+
+h1 {
+    font-family: roboto;
+}
+
+/* Font size */
+body {
+    font-size: 20px;
+}
+h1 {
+    font-size: 100px;
+}
+/* makes text in span tags double the size of surrounding text */
+span {
+    font-size: 2.0em;
+}
+/* font weight changes thickness of font*/
+p {
+    font-weight: bold;
+}
+
+/* line height changes spacing*/
+p {
+    line-height: 1.5;
+}
+
+/* text align changes position of text*/
+h1 {
+    text-align: right;
+}
+p {
+    text-align: center;
+}
+/* text decoration gives text effects */
+p {
+    text-decoration: underline;
+}
+h1 {
+    text-decoration: line-through;
+}

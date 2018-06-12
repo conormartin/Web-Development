@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Form Exercise</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        <label for="firstname">First Name:</label>
+        <input id="firstname" type="text" placeholder="Enter first Name" required>
+        <label for="surname">Surname:</label>
+        <input id="surname" type="text" placeholder="Enter surname" required>
+        <br>
+            <label for="sex">Sex:</label>
+            <label for="male">Male:</label>
+            <input name="male" id="Male" type="radio" value="Male">
+            <label for="female">Female:</label>
+            <input name="female" id="Female" type="radio" value="Female">
+            <label for="other">Other:</label>
+            <input name="other" id="Other" type="radio" value="Other">
+        <br>
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Enter email address" required> 
+
+        <label for="password">Password:</label>
+        <input id="password" type="password" placeholder="Enter password" minlength="5" maxlength="10"required>
+        <br>
+        <label for="birthday">Birthday</label>
+        <select name="birthday">
+            <option selected hidden>Day</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select>
+        <select name="birthday">
+            <option selected hidden>Month</option>
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+        </select>
+        <select name="birthday">
+            <option selected hidden>Year</option>
+            <option>1989</option>
+            <option>1990</option>
+            <option>1991</option>
+        </select>
+        <br>
+        <label for=terms>I agree to the terms and conditions</label>
+        <input name="terms" type="checkbox" required>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
